@@ -1,1 +1,1 @@
-# Iris-type-prediction
+# Medical Specialist Predictor
