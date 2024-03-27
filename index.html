@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Specialist Predictor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    background-color: #DCD9D4;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+
+  .main{
+    padding-left: 150px;
+  }
+  .logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('eye-logo.png') no-repeat center/cover;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .brand-name {
+    font-size: 39px;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  .content {
+    padding: 20px;
+    width:50%;
+
+  }
+  .footer {
+  left: 0;
+  bottom: 0;
+  padding-top:5px;
+  padding-bottom:5px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+  .social-links {
+    margin-top: 10px;
+  }
+  .social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .social-icon:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .email-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .email-link:hover {
+    color: #007bff;
+  }
+   .login {
+    
+    border-radius: 8px;
+    padding-left:40px;
+    padding-right:40px;
+    right: 50px;
+    margin-top:30px;
+    width: 350px;
+    background: rgba(253, 253, 253, 0.4);
+  }
+
+     .output{
+     background:#fffe;
+     margin-bottom:30px;
+     font-size:28px;
+     text-align:center;
+
+     }
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .input-field {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding-right:8px;
+  }
+  .submit-button {
+    appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%; 
+  }
+
+
+  
+  li{
+   font-family: Arial, sans-serif;
+   font-size:12 px;
+   }
+
+</style>
+</head>
+<body>
+<br>
+<br>
+<div class="main" style="display:flex;">
+    <div class="content">
+    <h1 style="text-align:center;">Predictive Healthcare: Find Your Specialist</h1>
+       <h5 style="text-align:center;">Welcome to Predictive Healthcare! We specialize in forecasting the right specialist for your medical needs. Our unique system predicts four key specialists: <bold>Cardiologist, Pulmonologist, Dermatologist, and Gastroenterologist</bold>.<br> <br>Whether you're dealing with heart, lung, skin, or digestive issues, we're here to guide you.
+
+       <br><br> No more uncertainty about which specialist to see. Just enter your symptoms or concerns, and let our predictive technology suggest the most relevant specialist. Our goal is to simplify your search for specialized care, saving you time and ensuring you connect with the right expert.
+        
+       <br><br>Trust our predictive system to streamline your healthcare journey. Get started today and find your specialist hassle-free!
+       </h5> 
+        <hr style="width:85%; border-width:2px; color: black; background-color:black">
+        <H2>1. Cardiologist</H2>
+
+            <h3>Specialty:</h3> Cardiology focuses on heart-related conditions and diseases. Cardiologists specialize in diagnosing, treating, and preventing heart disorders, including coronary artery disease, heart failure, arrhythmias, and congenital heart defects.
+            <h3>Services Offered:</h3>
+            <ul>
+              <li>Evaluation and management of chest pain and heart palpitations</li>
+              <li>Cardiac imaging (echocardiograms, stress tests, etc.)</li>
+              <li>Treatment for high blood pressure and cholesterol</li>
+            </ul>
+            <br>
+            <br>
+         <H2>2. Pulmonologist:</H2>
+
+            <h3>Specialty: </h3> Pulmonology deals with respiratory system diseases. Pulmonologists diagnose and manage conditions affecting the lungs and respiratory tract, such as asthma, chronic obstructive pulmonary disease (COPD), pneumonia, and lung cancer.
+        <br><h3>Services Offered:</h3> 
+        <ul>
+        <li>Diagnosis and treatment of breathing difficulties and lung diseases</li>
+        <li>Management of chronic cough, wheezing, and shortness of breath</li>
+        <li>Pulmonary function tests and bronchoscopy</li>
+        </ul>
+            <br>
+            <br>
+       <H2>3. Dermatologist:</H2>
+
+        <h3>Specialty:</h3>Dermatology focuses on skin, hair, nail, and mucous membrane disorders. Dermatologists diagnose and treat various skin conditions, including acne, eczema, psoriasis, skin cancer, and allergic reactions.
+                <br><h3>Services Offered:</h3>
+          <ul>
+            <li>Skin examinations and treatment for various skin disorders</li>
+            <li>Cosmetic procedures like Botox, fillers, and laser therapy</li>
+            <li>Skin cancer screenings and surgical removal</li>
+          </ul>
+          <br>
+          <br>
+
+          <H2>4. Gastroenterologist:</H2>
+
+        <h3>Specialty:</h3> Gastroenterology involves the digestive system and its disorders. Gastroenterologists diagnose and treat conditions affecting the stomach, intestines, liver, and pancreas, such as acid reflux, ulcers, irritable bowel syndrome (IBS), and liver diseases.
+                <br><h3>Services Offered:</h3>
+          <ul>
+            <li>Diagnosis and management of digestive disorders</li>
+            <li>Endoscopic procedures (colonoscopy, endoscopy, etc.)</li>
+            <li>Liver disease diagnosis, management, and treatment</li>
+          </ul>
+          <br>
+          <br>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="login">
+        <h2>Predict Specialist</h2>
+        <form action="{{ url_for('predict')}}"method="post">
+            <label class="form-label" >Age </label>
+            <input class="input-field" type="text" placeholder="Age" name="Age" required="required">
+
+            <label class="form-label" >Gender </label>
+            <input class="input-field" type="text" name="Gender" placeholder="Male=1, Female=0" required="required">
+
+            <label class="form-label" >Smoking-Status</label>
+            <input class="input-field" type="text" name="Smoking-Status" placeholder="Current-Smoker=0, Former-Drinker=1, Non-Smoker=2" required="required" >
+
+            <label class="form-label" >Alcohol_Consumption</label>
+            <input class="input-field" type="text" name="Alcohol_Consumption" placeholder="Yes=1, No=0" required="required" >
+
+            <label class="form-label" >Fever</label>
+            <input class="input-field" type="text" name="Fever" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Cough</label>
+            <input class="input-field" type="text" name="Cough" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Chest Pain</label>
+            <input class="input-field" type="text" name="Chest_Pain" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >HeadAche </label>
+            <input class="input-field" type="text" name="HeadAche" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Shortness_of_Breath</label>
+            <input class="input-field" type="text" name="Shortness_of_Breath" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Fatigue</label>
+            <input class="input-field" type="text" name="Fatigue" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Abdominal_Pain </label>
+            <input class="input-field" type="text" name="Abdominal_Pain" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Skin_Rash</label>
+            <input class="input-field" type="text" name="Skin_Rash" placeholder="Yes=1, No=0" required="required">
+
+            <label class="form-label" >Sore_Throat</label>
+            <input class="input-field" type="text" name="Sore_Throat" placeholder="Sore_Throat" required="required">
+
+            <button class="submit-button" type="submit">Predict</button>
+        </form>
+        <h3> The Predicted Specialist Is :</h3>
+        <div class="output" style="background: rgba(253, 253, 253, 0.4);">
+          <h3> {{ prediction_text }} </h3>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="social-links">
+        <a class="social-icon" href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <br>
+        <br>
+        <a href="mailto:contact@eyelistic.com">Mini Project 5th Sem</a>
+    </div>
+</div>
+</body>
+</html>
